@@ -1,0 +1,21 @@
+.kvadrat{
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+    box-shadow: 0px 0px 1px 2px black;
+    margin-left:150px ;
+    margin-top: 150px;
+    animation-name: kvadrat;
+    animation-duration: 4s;
+}
+
+@keyframes kvadrat {
+      from{
+        box-shadow: 0px 0px 5px 2px black;
+        transform: scale(0.5);
+      }
+      to{
+        box-shadow: 0px 0px 10px 2px black;
+        transform: scale(0.8);
+      }
+  }
